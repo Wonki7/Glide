@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@drawable/retina_background">
+
+
+    <Button
+        android:id="@+id/btn_show_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#ff9e80"
+        android:text="Картинки"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/btn_show_gif"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="#ff9e80"
+        android:text="Гифки"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title" />
+
+
+</LinearLayout>
+
